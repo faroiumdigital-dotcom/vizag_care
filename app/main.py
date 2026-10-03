@@ -1,3 +1,5 @@
+import traceback
+
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -26,6 +28,7 @@ class ChatOut(BaseModel):
     answer: str
     session_id: str
     emergency: bool = False
+    suggestions: list[str] = []
 
 
 def client_ip(request: Request) -> str:
@@ -43,8 +46,12 @@ def warm_up() -> None:
 
 
 @app.get("/health")
-def health():
-    return {"status": "ok", "model": config.LLAMA_MODEL, "api_key_set": bool(config.LLAMA_API_KEY)}
+def health(deep: bool = False):
+    """/health = quick check. /health?deep=1 also makes a tiny real model call (shows 404/401/429 problems)."""
+    info = {"status": "ok", "model": config.LLAMA_MODEL, "api_key_set": bool(config.LLAMA_API_KEY), "allowed_origins": config.ALLOWED_ORIGINS}
+    if deep:
+        info.update(assistant.check_model())
+    return info
 
 
 @app.get("/config")
@@ -74,15 +81,20 @@ def chat(body: ChatIn, request: Request):
 
     # 2. Ask the model
     try:
-        answer, answered = assistant.ask(text, sessions.get_history(sid))
+        answer, answered, suggestions = assistant.ask(text, sessions.get_history(sid))
     except Exception as e:  # network, auth, provider outage
         log_error(sid, repr(e))
+        traceback.print_exc()  # show the real reason in the terminal
+        status = getattr(e, "status_code", None)
+        if status in (413, 429):  # token / rate limit at the provider: temporary
+            raise HTTPException(503, "We're getting a lot of questions right now. Please try again in a minute.")
         raise HTTPException(502, "The assistant is unavailable right now.")
 
     if not answer:
         answer = get_rules()["fallback_phrase"]
         answered = False
+        suggestions = []
 
     sessions.add_exchange(sid, text, answer)
     log_chat(sid, text, answer, answered)
-    return ChatOut(answer=answer, session_id=sid)
+    return ChatOut(answer=answer, session_id=sid, suggestions=suggestions)
