@@ -1,0 +1,304 @@
+{
+  "_meta": {
+    "note": "Generated from vizag_care_kb.md. Not sent to the model. Used by Phase 2 booking tools."
+  },
+  "doctors": [
+    {
+      "id": "DR01",
+      "name": "Dr. K. Srinivas Rao",
+      "department": "General Medicine",
+      "qualifications": "MBBS, MD (General Medicine)",
+      "experience_years": 18,
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "consultation_fee_inr": 500,
+      "room": "A-101",
+      "weekly_days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "weekly_hours": "9:00 AM - 1:00 PM, 4:00 PM - 6:00 PM",
+      "online_consultation": true,
+      "about": "Senior physician focused on diabetes, hypertension and infectious diseases."
+    },
+    {
+      "id": "DR02",
+      "name": "Dr. P. Lakshmi Prasanna",
+      "department": "General Medicine",
+      "qualifications": "MBBS, DNB (General Medicine)",
+      "experience_years": 9,
+      "languages": [
+        "English",
+        "Telugu"
+      ],
+      "consultation_fee_inr": 400,
+      "room": "A-102",
+      "weekly_days": [
+        "Monday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "weekly_hours": "10:00 AM - 2:00 PM",
+      "online_consultation": true,
+      "about": "Special interest in thyroid disorders and preventive health."
+    },
+    {
+      "id": "DR03",
+      "name": "Dr. V. Ramakrishna",
+      "department": "Cardiology",
+      "qualifications": "MBBS, MD, DM (Cardiology)",
+      "experience_years": 22,
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "consultation_fee_inr": 900,
+      "room": "A-201",
+      "weekly_days": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "weekly_hours": "10:00 AM - 1:30 PM, 5:00 PM - 7:00 PM",
+      "online_consultation": true,
+      "about": "Interventional cardiologist with over 5,000 angioplasties."
+    },
+    {
+      "id": "DR04",
+      "name": "Dr. S. Meghana Reddy",
+      "department": "Cardiology",
+      "qualifications": "MBBS, MD, DM (Cardiology)",
+      "experience_years": 11,
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "consultation_fee_inr": 800,
+      "room": "A-202",
+      "weekly_days": [
+        "Tuesday",
+        "Wednesday",
+        "Friday"
+      ],
+      "weekly_hours": "9:30 AM - 1:00 PM",
+      "online_consultation": true,
+      "about": "Specializes in heart failure and preventive cardiology."
+    },
+    {
+      "id": "DR05",
+      "name": "Dr. B. Chandra Sekhar",
+      "department": "Orthopedics",
+      "qualifications": "MBBS, MS (Orthopedics)",
+      "experience_years": 16,
+      "languages": [
+        "English",
+        "Telugu"
+      ],
+      "consultation_fee_inr": 700,
+      "room": "B-201",
+      "weekly_days": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "weekly_hours": "11:00 AM - 2:00 PM, 5:00 PM - 7:00 PM",
+      "online_consultation": true,
+      "about": "Joint replacement and arthroscopy specialist."
+    },
+    {
+      "id": "DR06",
+      "name": "Dr. N. Anitha Kumari",
+      "department": "Pediatrics",
+      "qualifications": "MBBS, MD (Pediatrics)",
+      "experience_years": 13,
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "consultation_fee_inr": 500,
+      "room": "B-101",
+      "weekly_days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "weekly_hours": "9:00 AM - 12:30 PM, 4:00 PM - 6:30 PM",
+      "online_consultation": true,
+      "about": "Child specialist with a focus on newborn care and vaccination."
+    },
+    {
+      "id": "DR07",
+      "name": "Dr. M. Swapna Latha",
+      "department": "Obstetrics & Gynecology",
+      "qualifications": "MBBS, MS (Obstetrics & Gynecology)",
+      "experience_years": 15,
+      "languages": [
+        "English",
+        "Telugu"
+      ],
+      "consultation_fee_inr": 700,
+      "room": "B-102",
+      "weekly_days": [
+        "Monday",
+        "Wednesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "weekly_hours": "10:00 AM - 1:00 PM, 4:30 PM - 6:30 PM",
+      "online_consultation": true,
+      "about": "High-risk pregnancy and laparoscopic surgery expert."
+    },
+    {
+      "id": "DR08",
+      "name": "Dr. R. Kiran Kumar",
+      "department": "Neurology",
+      "qualifications": "MBBS, MD, DM (Neurology)",
+      "experience_years": 14,
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "consultation_fee_inr": 850,
+      "room": "A-301",
+      "weekly_days": [
+        "Tuesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "weekly_hours": "10:00 AM - 1:00 PM, 4:00 PM - 6:00 PM",
+      "online_consultation": true,
+      "about": "Treats stroke, epilepsy and migraine."
+    },
+    {
+      "id": "DR09",
+      "name": "Dr. T. Harika",
+      "department": "Dermatology",
+      "qualifications": "MBBS, MD (Dermatology)",
+      "experience_years": 8,
+      "languages": [
+        "English",
+        "Telugu"
+      ],
+      "consultation_fee_inr": 600,
+      "room": "C-101",
+      "weekly_days": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Friday"
+      ],
+      "weekly_hours": "11:00 AM - 2:00 PM, 4:00 PM - 6:00 PM",
+      "online_consultation": false,
+      "about": "Skin allergy, acne and hair treatment specialist."
+    },
+    {
+      "id": "DR10",
+      "name": "Dr. G. Venkata Ramana",
+      "department": "ENT",
+      "qualifications": "MBBS, MS (ENT)",
+      "experience_years": 17,
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "consultation_fee_inr": 600,
+      "room": "C-102",
+      "weekly_days": [
+        "Monday",
+        "Wednesday",
+        "Friday",
+        "Saturday"
+      ],
+      "weekly_hours": "10:00 AM - 1:00 PM",
+      "online_consultation": true,
+      "about": "Sinus and hearing disorder specialist."
+    },
+    {
+      "id": "DR11",
+      "name": "Dr. A. Prasad Varma",
+      "department": "Gastroenterology",
+      "qualifications": "MBBS, MD, DM (Gastroenterology)",
+      "experience_years": 12,
+      "languages": [
+        "English",
+        "Telugu"
+      ],
+      "consultation_fee_inr": 800,
+      "room": "A-203",
+      "weekly_days": [
+        "Tuesday",
+        "Wednesday",
+        "Friday"
+      ],
+      "weekly_hours": "10:30 AM - 1:30 PM, 4:30 PM - 6:30 PM",
+      "online_consultation": true,
+      "about": "Endoscopy and liver disease specialist."
+    },
+    {
+      "id": "DR12",
+      "name": "Dr. Y. Sandhya Rani",
+      "department": "Ophthalmology",
+      "qualifications": "MBBS, MS (Ophthalmology)",
+      "experience_years": 10,
+      "languages": [
+        "English",
+        "Telugu",
+        "Hindi"
+      ],
+      "consultation_fee_inr": 500,
+      "room": "C-103",
+      "weekly_days": [
+        "Monday",
+        "Tuesday",
+        "Thursday",
+        "Saturday"
+      ],
+      "weekly_hours": "9:30 AM - 1:00 PM",
+      "online_consultation": true,
+      "about": "Cataract and retina surgeon."
+    },
+    {
+      "id": "DR13",
+      "name": "Dr. L. Ravi Teja",
+      "department": "Dental",
+      "qualifications": "BDS, MDS (Endodontics)",
+      "experience_years": 7,
+      "languages": [
+        "English",
+        "Telugu"
+      ],
+      "consultation_fee_inr": 300,
+      "room": "C-104",
+      "weekly_days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "weekly_hours": "10:00 AM - 1:00 PM, 4:00 PM - 7:00 PM",
+      "online_consultation": false,
+      "about": "Root canal and cosmetic dentistry."
+    }
+  ]
+}

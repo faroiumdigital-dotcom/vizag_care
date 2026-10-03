@@ -1,0 +1,20 @@
+{
+  "_meta": {
+    "last_updated": "2026-10-02",
+    "owner": "Patient Relations",
+    "status": "SAMPLE DATA - Telugu/Hindi text must be reviewed by a native speaker before launch",
+    "note": "Only FAQs that have Telugu/Hindi answers. The English FAQs are already inside vizag_care_kb.md."
+  },
+  "faqs": [
+    {"question": "Where is the hospital located?", "answer_te": "విజాగ్ కేర్ హాస్పిటల్, ప్లాట్ 14, బీచ్ రోడ్, సిరిపురం, విశాఖపట్నం – 530003."},
+    {"question": "What are the OPD timings?", "answer_te": "OPD సోమవారం నుండి శనివారం వరకు ఉదయం 9:00 నుండి సాయంత్రం 7:00 వరకు ఉంటుంది. ఎమర్జెన్సీ 24 గంటలూ అందుబాటులో ఉంటుంది.", "answer_hi": "OPD सोमवार से शनिवार, सुबह 9:00 से शाम 7:00 बजे तक चलता है। इमरजेंसी 24 घंटे उपलब्ध है।"},
+    {"question": "Is the hospital open on Sunday or holidays?", "answer_te": "ఆదివారాలు మరియు ప్రభుత్వ సెలవు రోజుల్లో OPD ఉండదు, కానీ ఎమర్జెన్సీ, ఫార్మసీ, అంబులెన్స్ 24 గంటలూ పనిచేస్తాయి.", "answer_hi": "रविवार और सरकारी छुट्टियों में OPD बंद रहता है, लेकिन इमरजेंसी, फार्मेसी और एम्बुलेंस 24 घंटे चालू रहते हैं।"},
+    {"question": "Is parking available?", "answer_te": "మొదటి 2 గంటలు ఉచితం. ఆ తర్వాత కార్లకు గంటకు రూ.20, ద్విచక్ర వాహనాలకు రూ.10."},
+    {"question": "How do I book an appointment?", "answer_te": "అపాయింట్‌మెంట్ కోసం 0891-400-1001 కు కాల్ చేయండి లేదా WhatsApp +91 90000 12345 కు సందేశం పంపండి.", "answer_hi": "अपॉइंटमेंट के लिए 0891-400-1001 पर कॉल करें या WhatsApp +91 90000 12345 पर मैसेज करें।"},
+    {"question": "Do I need to fast before blood tests?", "answer_te": "బ్లడ్ షుగర్, లిపిడ్ ప్రొఫైల్, లివర్ ఫంక్షన్, పొత్తికడుపు అల్ట్రాసౌండ్ కోసం 8–10 గంటలు ఉపవాసం ఉండాలి. నీళ్లు తాగవచ్చు."},
+    {"question": "Do you accept health insurance?", "answer_te": "అవును, ప్రధాన బీమా కంపెనీలతో క్యాష్‌లెస్ చికిత్స అందుబాటులో ఉంది. ఆరోగ్యశ్రీ, ఆయుష్మాన్ భారత్, CGHS, ESI కూడా అంగీకరిస్తాము.", "answer_hi": "हाँ, प्रमुख बीमा कंपनियों के साथ कैशलेस इलाज उपलब्ध है। आरोग्यश्री, आयुष्मान भारत, CGHS और ESI भी स्वीकार किए जाते हैं।"},
+    {"question": "What are the visiting hours?", "answer_te": "సందర్శన సమయాలు: ఉదయం 11:00–12:00 మరియు సాయంత్రం 5:00–7:00. ఒక రోగికి గరిష్టంగా 2 సందర్శకులు."},
+    {"question": "What is the emergency number?", "answer_te": "ఎమర్జెన్సీ నంబర్ 0891-400-1108. అంబులెన్స్ కోసం 0891-400-1102 కు కాల్ చేయండి.", "answer_hi": "इमरजेंसी नंबर 0891-400-1108 है। एम्बुलेंस के लिए 0891-400-1102 पर कॉल करें।"},
+    {"question": "Is the pharmacy open at night?", "answer_te": "ఫార్మసీ 24 గంటలూ తెరిచి ఉంటుంది."}
+  ]
+}
